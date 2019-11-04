@@ -1,0 +1,397 @@
+
+findTheBugExample:     file format coff-sh
+
+Contents of .stab section:
+
+Symnum n_type n_othr n_desc n_value  n_strx String
+
+-1     HdrSym 0      97     00000be2 1     
+0      SO     0      2      080040a0 8      ../port/misc.c
+1      OPT    0      0      00000000 23     gcc2_compiled.
+2      LSYM   0      0      00000000 38     int:t(0,1)=r(0,1);-2147483648;2147483647;
+3      LSYM   0      0      00000000 80     char:t(0,2)=r(0,2);0;127;
+4      LSYM   0      0      00000000 106    long int:t(0,3)=r(0,3);-2147483648;2147483647;
+5      LSYM   0      0      00000000 153    unsigned int:t(0,4)=r(0,4);0;4294967295;
+6      LSYM   0      0      00000000 194    long unsigned int:t(0,5)=r(0,5);0;4294967295;
+7      LSYM   0      0      00000000 240    __int128:t(0,6)=r(0,6);0;-1;
+8      LSYM   0      0      00000000 269    __int128 unsigned:t(0,7)=r(0,7);0;-1;
+9      LSYM   0      0      00000000 307    long long int:t(0,8)=r(0,8);-9223372036854775808;9223372036854775807;
+10     LSYM   0      0      00000000 377    long long unsigned int:t(0,9)=r(0,9);0;-1;
+11     LSYM   0      0      00000000 420    short int:t(0,10)=r(0,10);-32768;32767;
+12     LSYM   0      0      00000000 460    short unsigned int:t(0,11)=r(0,11);0;65535;
+13     LSYM   0      0      00000000 504    signed char:t(0,12)=r(0,12);-128;127;
+14     LSYM   0      0      00000000 542    unsigned char:t(0,13)=r(0,13);0;255;
+15     LSYM   0      0      00000000 579    float:t(0,14)=r(0,1);4;0;
+16     LSYM   0      0      00000000 605    double:t(0,15)=r(0,1);8;0;
+17     LSYM   0      0      00000000 632    long double:t(0,16)=r(0,1);8;0;
+18     LSYM   0      0      00000000 664    _Float32:t(0,17)=r(0,1);4;0;
+19     LSYM   0      0      00000000 693    _Float64:t(0,18)=r(0,1);8;0;
+20     LSYM   0      0      00000000 722    _Float32x:t(0,19)=r(0,1);8;0;
+21     LSYM   0      0      00000000 752    void:t(0,20)=(0,20)
+22     BINCL  0      0      00000000 772    /usr/local/src/git/sunflower-simulator-github-clone/sim/tag.h
+23     LSYM   0      0      00000000 834     :T(1,1)=eTAG_NTAGS:1024,TAG_TTL_MAX:255,TAG_STRING_LEN:16,;
+24     LSYM   0      0      00000000 895    Tag:t(1,2)=(1,3)=s40string:(1,4)=ar(1,5)=r(1,5);0;4294967295;;0;15;(0,13),0,128;who_has:(1,4),128,128;confidence:(0,1),256,32;ttl:(0,5),288,32;;
+25     EINCL  0      0      00000000 0      
+26     BINCL  0      0      00000000 1040   /usr/local/src/git/sunflower-simulator-github-clone/sim/devsim7708.h
+27     LSYM   0      0      00000000 1109    :T(2,1)=eSUPERH_DEVSIM_TOP:4026466304,SUPERH_NIC_OUI_BYTES:16,SUPERH_NIC_DST_BYTES:16,SUPERH_NIC_REG_SPACING:65536,SUPERH_NIC_NMR:4026466304,SUPERH_NIC_BRR:4026400768,SUPERH_NIC_NCR:4026335232,SUPERH_NIC_TDR:4026269696,SUPERH_NIC_NSR:4026204160,SUPERH_NIC_RDR:4026138624,SUPERH_NIC_MAXFSZ:4026073088,SUPERH_NIC_RXFSZ:4026007552,SUPERH_NIC_OUI:4025942016,SUPERH_NIC_DST:4025876480,SUPERH_NIC_NCSENSE:4025810944,SUPERH_NIC_NCOLLS:4025745408,SUPERH_NIC_CSENSE:4025679872,SUPERH_DEVLOGPRINT:4025679871,SUPERH_USECS_END:4025679871,SUPERH_USECS_BEGIN:4025679867,SUPERH_SIMCMD_CTL:4025679866,SUPERH_SIMCMD_DATA:4025679865,SUPERH_RAND_END:4025679865,SUPERH_RAND_BEGIN:4025679861,SUPERH_ORBIT_END:4025679861,SUPERH_ORBIT_BEGIN:4025679857,SUPERH_VELOCITY_END:4025679857,SUPERH_VELOCITY_BEGIN:4025679849,SUPERH_XLOC_END:4025679849,SUPERH_XLOC_BEGIN:4025679841,SUPERH_YLOC_END:4025679841,SUPERH_YLOC_BEGIN:4025679833,SUPERH_ZLOC_END:4025679833,SUPERH_ZLOC_BEGIN:4025679825,SUPERH_SENSOR_REG_SPACING:65536,SUPERH_SENSREAD_END:4025679825,SUPERH_SENSREAD_BEGIN:4025614289,SUPERH_SENSWRITE_END:4025614289,SUPERH_SENSWRITE_BEGIN:4025548753,SUPERH_THREADID:4025548749,SUPERH_NUMAREGION_REG_SPACING:65536,SUPERH_NUMAREGION_RDCNT_END:4025548749,SUPERH_NUMAREGION_RDCNT_BEGIN:4025483213,SUPERH_NUMAREGION_WRCNT_END:4025483213,SUPERH_NUMAREGION_WRCNT_BEGIN:4025417677,SUPERH_NUMAREGION_COUNT:4025417673,SUPERH_BATTPERCENT:4025417669,SUPERH_LOGMARK_END:4025417669,SUPERH_LOGMARK_BEGIN:4025417637,SUPERH_NETTRACEMARK_END:4025417637,SUPERH_NETTRACEMARK_BEGIN:4025417605,SUPERH_DEVSIM_BOTTOM:4025417669,;
+28     EINCL  0      0      00000000 0      
+29     BINCL  0      0      00000000 2689   /usr/local/src/git/sunflower-simulator-github-clone/sys/kern/superH/devscc.h
+30     LSYM   0      0      00000000 2766    :T(3,1)=eTX_RDY:128,TX_CLR:65407,RX_RDY:64,RX_CLR:65471,;
+31     EINCL  0      0      00000000 0      
+32     FUN    0      0      080040a0 2825   sccputc:F(0,20)
+33     PSYM   0      0      00000004 2841   device:p(0,1)
+34     PSYM   0      0      00000000 2855   ch:p(0,13)
+35     SLINE  0      14     00000000 0      
+36     SLINE  0      15     00000016 0      
+37     SLINE  0      15     00000018 0      
+38     SLINE  0      15     0000001e 0      
+39     SLINE  0      15     00000020 0      
+40     SLINE  0      17     00000024 0      
+41     SLINE  0      17     00000026 0      
+42     SLINE  0      18     00000030 0      
+43     SLINE  0      20     00000040 0      
+44     SLINE  0      21     00000042 0      
+45     FUN    0      0      080040f0 2866   devlogprintputc:F(0,20)
+46     PSYM   0      0      00000004 2890   device:p(0,1)
+47     PSYM   0      0      00000000 2904   ch:p(0,13)
+48     SLINE  0      26     00000000 0      
+49     SLINE  0      27     00000016 0      
+50     SLINE  0      27     00000018 0      
+51     SLINE  0      29     00000022 0      
+52     SLINE  0      30     00000024 0      
+53     FUN    0      0      08004124 2915   xudelay:F(0,20)
+54     PSYM   0      0      00000000 2931   usecs:p(0,5)
+55     SLINE  0      34     00000000 0      
+56     SLINE  0      37     0000000c 0      
+57     SLINE  0      37     00000018 0      
+58     SLINE  0      38     0000001e 0      
+59     SLINE  0      38     00000026 0      
+60     SLINE  0      38     0000002a 0      
+61     SLINE  0      38     0000003a 0      
+62     SLINE  0      38     00000046 0      
+63     SLINE  0      41     0000004a 0      
+64     LSYM   0      0      00000008 2944   max:(0,1)
+65     LSYM   0      0      00000004 2954   i:(0,1)
+66     LBRAC  0      0      00000000 0      
+67     RBRAC  0      0      00000056 0      
+68     FUN    0      0      0800417a 2962   xusleep:F(0,20)
+69     PSYM   0      0      00000000 2978   usecs:p(0,5)
+70     SLINE  0      45     00000000 0      
+71     SLINE  0      46     00000010 0      
+72     SLINE  0      48     0000001e 0      
+73     SLINE  0      50     00000022 0      
+74     SLINE  0      48     00000028 0      
+75     SLINE  0      48     00000030 0      
+76     SLINE  0      48     0000003c 0      
+77     SLINE  0      52     00000046 0      
+78     LSYM   0      0      00000004 2991   time:(0,5)
+79     LBRAC  0      0      00000000 0      
+80     RBRAC  0      0      0000005e 0      
+81     FUN    0      0      080041d8 3002   pow10:F(0,1)
+82     PSYM   0      0      00000000 3015   y:p(0,1)
+83     SLINE  0      56     00000000 0      
+84     SLINE  0      57     0000000c 0      
+85     SLINE  0      59     00000014 0      
+86     SLINE  0      59     0000001c 0      
+87     SLINE  0      61     00000020 0      
+88     SLINE  0      59     00000034 0      
+89     SLINE  0      59     00000042 0      
+90     SLINE  0      64     00000052 0      
+91     SLINE  0      65     00000058 0      
+92     LSYM   0      0      00000008 3024   i:(0,1)
+93     LSYM   0      0      00000004 3032   ret:(0,1)
+94     LBRAC  0      0      00000000 0      
+95     RBRAC  0      0      00000064 0      
+96     SO     0      0      0800423c 0      
+97     HdrSym 0      50     0000099c 1     
+98     SO     0      2      0800423c 10     ../port/devrtc.c
+99     OPT    0      0      00000000 27     gcc2_compiled.
+100    LSYM   0      0      00000000 42     int:t(0,1)=r(0,1);-2147483648;2147483647;
+101    LSYM   0      0      00000000 84     char:t(0,2)=r(0,2);0;127;
+102    LSYM   0      0      00000000 110    long int:t(0,3)=r(0,3);-2147483648;2147483647;
+103    LSYM   0      0      00000000 157    unsigned int:t(0,4)=r(0,4);0;4294967295;
+104    LSYM   0      0      00000000 198    long unsigned int:t(0,5)=r(0,5);0;4294967295;
+105    LSYM   0      0      00000000 244    __int128:t(0,6)=r(0,6);0;-1;
+106    LSYM   0      0      00000000 273    __int128 unsigned:t(0,7)=r(0,7);0;-1;
+107    LSYM   0      0      00000000 311    long long int:t(0,8)=r(0,8);-9223372036854775808;9223372036854775807;
+108    LSYM   0      0      00000000 381    long long unsigned int:t(0,9)=r(0,9);0;-1;
+109    LSYM   0      0      00000000 424    short int:t(0,10)=r(0,10);-32768;32767;
+110    LSYM   0      0      00000000 464    short unsigned int:t(0,11)=r(0,11);0;65535;
+111    LSYM   0      0      00000000 508    signed char:t(0,12)=r(0,12);-128;127;
+112    LSYM   0      0      00000000 546    unsigned char:t(0,13)=r(0,13);0;255;
+113    LSYM   0      0      00000000 583    float:t(0,14)=r(0,1);4;0;
+114    LSYM   0      0      00000000 609    double:t(0,15)=r(0,1);8;0;
+115    LSYM   0      0      00000000 636    long double:t(0,16)=r(0,1);8;0;
+116    LSYM   0      0      00000000 668    _Float32:t(0,17)=r(0,1);4;0;
+117    LSYM   0      0      00000000 697    _Float64:t(0,18)=r(0,1);8;0;
+118    LSYM   0      0      00000000 726    _Float32x:t(0,19)=r(0,1);8;0;
+119    LSYM   0      0      00000000 756    void:t(0,20)=(0,20)
+120    BINCL  0      0      00000000 776    /usr/local/src/git/sunflower-simulator-github-clone/sim/devsim7708.h
+121    LSYM   0      0      00000000 845     :T(1,1)=eSUPERH_DEVSIM_TOP:4026466304,SUPERH_NIC_OUI_BYTES:16,SUPERH_NIC_DST_BYTES:16,SUPERH_NIC_REG_SPACING:65536,SUPERH_NIC_NMR:4026466304,SUPERH_NIC_BRR:4026400768,SUPERH_NIC_NCR:4026335232,SUPERH_NIC_TDR:4026269696,SUPERH_NIC_NSR:4026204160,SUPERH_NIC_RDR:4026138624,SUPERH_NIC_MAXFSZ:4026073088,SUPERH_NIC_RXFSZ:4026007552,SUPERH_NIC_OUI:4025942016,SUPERH_NIC_DST:4025876480,SUPERH_NIC_NCSENSE:4025810944,SUPERH_NIC_NCOLLS:4025745408,SUPERH_NIC_CSENSE:4025679872,SUPERH_DEVLOGPRINT:4025679871,SUPERH_USECS_END:4025679871,SUPERH_USECS_BEGIN:4025679867,SUPERH_SIMCMD_CTL:4025679866,SUPERH_SIMCMD_DATA:4025679865,SUPERH_RAND_END:4025679865,SUPERH_RAND_BEGIN:4025679861,SUPERH_ORBIT_END:4025679861,SUPERH_ORBIT_BEGIN:4025679857,SUPERH_VELOCITY_END:4025679857,SUPERH_VELOCITY_BEGIN:4025679849,SUPERH_XLOC_END:4025679849,SUPERH_XLOC_BEGIN:4025679841,SUPERH_YLOC_END:4025679841,SUPERH_YLOC_BEGIN:4025679833,SUPERH_ZLOC_END:4025679833,SUPERH_ZLOC_BEGIN:4025679825,SUPERH_SENSOR_REG_SPACING:65536,SUPERH_SENSREAD_END:4025679825,SUPERH_SENSREAD_BEGIN:4025614289,SUPERH_SENSWRITE_END:4025614289,SUPERH_SENSWRITE_BEGIN:4025548753,SUPERH_THREADID:4025548749,SUPERH_NUMAREGION_REG_SPACING:65536,SUPERH_NUMAREGION_RDCNT_END:4025548749,SUPERH_NUMAREGION_RDCNT_BEGIN:4025483213,SUPERH_NUMAREGION_WRCNT_END:4025483213,SUPERH_NUMAREGION_WRCNT_BEGIN:4025417677,SUPERH_NUMAREGION_COUNT:4025417673,SUPERH_BATTPERCENT:4025417669,SUPERH_LOGMARK_END:4025417669,SUPERH_LOGMARK_BEGIN:4025417637,SUPERH_NETTRACEMARK_END:4025417637,SUPERH_NETTRACEMARK_BEGIN:4025417605,SUPERH_DEVSIM_BOTTOM:4025417669,;
+122    EINCL  0      0      00000000 0      
+123    FUN    0      0      0800423c 2425   devrtc_getusecs:F(0,5)
+124    SLINE  0      7      00000000 0      
+125    SLINE  0      8      00000006 0      
+126    SLINE  0      10     0000000e 0      
+127    SLINE  0      10     00000010 0      
+128    SLINE  0      10     00000014 0      
+129    SLINE  0      10     00000018 0      
+130    SLINE  0      11     0000001a 0      
+131    SLINE  0      11     0000001c 0      
+132    SLINE  0      11     00000020 0      
+133    SLINE  0      11     00000024 0      
+134    SLINE  0      12     00000026 0      
+135    SLINE  0      12     00000028 0      
+136    SLINE  0      12     0000002c 0      
+137    SLINE  0      12     00000030 0      
+138    SLINE  0      13     00000032 0      
+139    SLINE  0      13     00000034 0      
+140    SLINE  0      13     00000036 0      
+141    SLINE  0      13     0000003a 0      
+142    SLINE  0      15     0000003c 0      
+143    SLINE  0      16     00000042 0      
+144    LSYM   0      0      00000000 2448   usecs:(0,5)
+145    LBRAC  0      0      00000000 0      
+146    RBRAC  0      0      00000060 0      
+147    SO     0      0      0800429c 0      
+148    HdrSym 0      239    000025cd 1     
+149    SO     0      2      0800429c 21     findTheBugExample.c
+150    OPT    0      0      00000000 41     gcc2_compiled.
+151    LSYM   0      0      00000000 56     int:t(0,1)=r(0,1);-2147483648;2147483647;
+152    LSYM   0      0      00000000 98     char:t(0,2)=r(0,2);0;127;
+153    LSYM   0      0      00000000 124    long int:t(0,3)=r(0,3);-2147483648;2147483647;
+154    LSYM   0      0      00000000 171    unsigned int:t(0,4)=r(0,4);0;4294967295;
+155    LSYM   0      0      00000000 212    long unsigned int:t(0,5)=r(0,5);0;4294967295;
+156    LSYM   0      0      00000000 258    __int128:t(0,6)=r(0,6);0;-1;
+157    LSYM   0      0      00000000 287    __int128 unsigned:t(0,7)=r(0,7);0;-1;
+158    LSYM   0      0      00000000 325    long long int:t(0,8)=r(0,8);-9223372036854775808;9223372036854775807;
+159    LSYM   0      0      00000000 395    long long unsigned int:t(0,9)=r(0,9);0;-1;
+160    LSYM   0      0      00000000 438    short int:t(0,10)=r(0,10);-32768;32767;
+161    LSYM   0      0      00000000 478    short unsigned int:t(0,11)=r(0,11);0;65535;
+162    LSYM   0      0      00000000 522    signed char:t(0,12)=r(0,12);-128;127;
+163    LSYM   0      0      00000000 560    unsigned char:t(0,13)=r(0,13);0;255;
+164    LSYM   0      0      00000000 597    float:t(0,14)=r(0,1);4;0;
+165    LSYM   0      0      00000000 623    double:t(0,15)=r(0,1);8;0;
+166    LSYM   0      0      00000000 650    long double:t(0,16)=r(0,1);8;0;
+167    LSYM   0      0      00000000 682    _Float32:t(0,17)=r(0,1);4;0;
+168    LSYM   0      0      00000000 711    _Float64:t(0,18)=r(0,1);8;0;
+169    LSYM   0      0      00000000 740    _Float32x:t(0,19)=r(0,1);8;0;
+170    LSYM   0      0      00000000 770    void:t(0,20)=(0,20)
+171    BINCL  0      0      00000000 790    /usr/local/src/git/sunflower-simulator-github-clone/tools/superH/sh-elf/sys-include/stdio.h
+172    BINCL  0      0      00000000 882    /usr/local/src/git/sunflower-simulator-github-clone/tools/superH/sh-elf/sys-include/sys/cdefs.h
+173    BINCL  0      0      00000000 978    /usr/local/src/git/sunflower-simulator-github-clone/tools/superH/sh-elf/sys-include/machine/_default_types.h
+174    LSYM   0      0      00000000 1087   __int8_t:t(3,1)=(0,12)
+175    LSYM   0      0      00000000 1110   __uint8_t:t(3,2)=(0,13)
+176    LSYM   0      0      00000000 1134   __int16_t:t(3,3)=(0,10)
+177    LSYM   0      0      00000000 1158   __uint16_t:t(3,4)=(0,11)
+178    LSYM   0      0      00000000 1183   __int32_t:t(3,5)=(0,3)
+179    LSYM   0      0      00000000 1206   __uint32_t:t(3,6)=(0,5)
+180    LSYM   0      0      00000000 1230   __int64_t:t(3,7)=(0,8)
+181    LSYM   0      0      00000000 1253   __uint64_t:t(3,8)=(0,9)
+182    LSYM   0      0      00000000 1277   __int_least8_t:t(3,9)=(0,12)
+183    LSYM   0      0      00000000 1306   __uint_least8_t:t(3,10)=(0,13)
+184    LSYM   0      0      00000000 1337   __int_least16_t:t(3,11)=(0,10)
+185    LSYM   0      0      00000000 1368   __uint_least16_t:t(3,12)=(0,11)
+186    LSYM   0      0      00000000 1400   __int_least32_t:t(3,13)=(0,3)
+187    LSYM   0      0      00000000 1430   __uint_least32_t:t(3,14)=(0,5)
+188    LSYM   0      0      00000000 1461   __int_least64_t:t(3,15)=(0,8)
+189    LSYM   0      0      00000000 1491   __uint_least64_t:t(3,16)=(0,9)
+190    LSYM   0      0      00000000 1522   __intmax_t:t(3,17)=(0,8)
+191    LSYM   0      0      00000000 1547   __uintmax_t:t(3,18)=(0,9)
+192    LSYM   0      0      00000000 1573   __intptr_t:t(3,19)=(0,1)
+193    LSYM   0      0      00000000 1598   __uintptr_t:t(3,20)=(0,4)
+194    EINCL  0      0      00000000 0      
+195    BINCL  0      0      00000000 1624   /usr/local/src/git/sunflower-simulator-github-clone/tools/superH/lib/gcc/sh-elf/8.2.0/include/stddef.h
+196    LSYM   0      0      00000000 1727   size_t:t(4,1)=(0,4)
+197    EINCL  0      0      00000000 0      
+198    EINCL  0      0      00000000 0      
+199    BINCL  0      0      00000000 1747   /usr/local/src/git/sunflower-simulator-github-clone/tools/superH/lib/gcc/sh-elf/8.2.0/include/stddef.h
+200    LSYM   0      0      00000000 1850   ptrdiff_t:t(5,1)=(0,1)
+201    LSYM   0      0      00000000 1873   wchar_t:t(5,2)=(0,3)
+202    LSYM   0      0      00000000 1894   max_align_t:t(5,3)=(5,4)=s16__max_align_ll:(0,8),0,64;__max_align_ld:(0,16),64,64;;
+203    EINCL  0      0      00000000 0      
+204    BINCL  0      0      00000000 1978   /usr/local/src/git/sunflower-simulator-github-clone/tools/superH/lib/gcc/sh-elf/8.2.0/include/stdarg.h
+205    LSYM   0      0      00000000 2081   __gnuc_va_list:t(6,1)=(6,2)=*(0,20)
+206    EINCL  0      0      00000000 0      
+207    LSYM   0      0      00000000 2117   va_list:t(1,1)=(6,1)
+208    BINCL  0      0      00000000 2138   /usr/local/src/git/sunflower-simulator-github-clone/tools/superH/sh-elf/sys-include/sys/reent.h
+209    BINCL  0      0      00000000 2234   /usr/local/src/git/sunflower-simulator-github-clone/tools/superH/sh-elf/sys-include/sys/_types.h
+210    BINCL  0      0      00000000 2331   /usr/local/src/git/sunflower-simulator-github-clone/tools/superH/sh-elf/sys-include/sys/lock.h
+211    LSYM   0      0      00000000 2426   _LOCK_T:t(9,1)=(0,1)
+212    LSYM   0      0      00000000 2447   _LOCK_RECURSIVE_T:t(9,2)=(0,1)
+213    EINCL  0      0      00000000 0      
+214    LSYM   0      0      00000000 2478   __blkcnt_t:t(8,1)=(0,3)
+215    LSYM   0      0      00000000 2502   __blksize_t:t(8,2)=(0,3)
+216    LSYM   0      0      00000000 2527   __fsblkcnt_t:t(8,3)=(3,8)
+217    LSYM   0      0      00000000 2553   __fsfilcnt_t:t(8,4)=(3,6)
+218    LSYM   0      0      00000000 2579   _off_t:t(8,5)=(0,3)
+219    LSYM   0      0      00000000 2599   __pid_t:t(8,6)=(0,1)
+220    LSYM   0      0      00000000 2620   __dev_t:t(8,7)=(0,10)
+221    LSYM   0      0      00000000 2642   __uid_t:t(8,8)=(0,11)
+222    LSYM   0      0      00000000 2664   __gid_t:t(8,9)=(0,11)
+223    LSYM   0      0      00000000 2686   __id_t:t(8,10)=(3,6)
+224    LSYM   0      0      00000000 2707   __ino_t:t(8,11)=(0,11)
+225    LSYM   0      0      00000000 2730   __mode_t:t(8,12)=(3,6)
+226    LSYM   0      0      00000000 2753   _off64_t:t(8,13)=(0,8)
+227    LSYM   0      0      00000000 2776   __off_t:t(8,14)=(8,5)
+228    LSYM   0      0      00000000 2798   __loff_t:t(8,15)=(8,13)
+229    LSYM   0      0      00000000 2822   __key_t:t(8,16)=(0,3)
+230    LSYM   0      0      00000000 2844   _fpos_t:t(8,17)=(0,3)
+231    LSYM   0      0      00000000 2866   __size_t:t(8,18)=(0,4)
+232    LSYM   0      0      00000000 2889   _ssize_t:t(8,19)=(0,1)
+233    LSYM   0      0      00000000 2912   __ssize_t:t(8,20)=(8,19)
+234    BINCL  0      0      00000000 2937   /usr/local/src/git/sunflower-simulator-github-clone/tools/superH/lib/gcc/sh-elf/8.2.0/include/stddef.h
+235    LSYM   0      0      00000000 3040   wint_t:t(10,1)=(0,4)
+236    EINCL  0      0      00000000 0      
+237    LSYM   0      0      00000000 3061   _mbstate_t:t(8,21)=(8,22)=s8__count:(0,1),0,32;__value:(8,23)=u4__wch:(10,1),0,32;__wchb:(8,24)=ar(8,25)=r(8,25);0;4294967295;;0;3;(0,13),0,32;;,32,32;;
+238    LSYM   0      0      00000000 3214   _flock_t:t(8,26)=(9,2)
+239    LSYM   0      0      00000000 3237   _iconv_t:t(8,27)=(6,2)
+240    LSYM   0      0      00000000 3260   __clock_t:t(8,28)=(0,5)
+241    LSYM   0      0      00000000 3284   __time_t:t(8,29)=(3,15)
+242    LSYM   0      0      00000000 3308   __clockid_t:t(8,30)=(0,5)
+243    LSYM   0      0      00000000 3334   __timer_t:t(8,31)=(0,5)
+244    LSYM   0      0      00000000 3358   __sa_family_t:t(8,32)=(3,2)
+245    LSYM   0      0      00000000 3386   __socklen_t:t(8,33)=(3,6)
+246    LSYM   0      0      00000000 3412   __nlink_t:t(8,34)=(0,11)
+247    LSYM   0      0      00000000 3437   __suseconds_t:t(8,35)=(0,3)
+248    LSYM   0      0      00000000 3465   __useconds_t:t(8,36)=(0,5)
+249    LSYM   0      0      00000000 3492   __va_list:t(8,37)=(6,2)
+250    EINCL  0      0      00000000 0      
+251    LSYM   0      0      00000000 3516   __ULong:t(7,1)=(0,5)
+252    LSYM   0      0      00000000 3537   _Bigint:T(7,2)=s24_next:(7,3)=*(7,2),0,32;_k:(0,1),32,32;_maxwds:(0,1),64,32;_sign:(0,1),96,32;_wds:(0,1),128,32;_x:(7,4)=ar(8,25);0;0;(7,1),160,32;;
+253    LSYM   0      0      00000000 3687   __tm:T(7,5)=s36__tm_sec:(0,1),0,32;__tm_min:(0,1),32,32;__tm_hour:(0,1),64,32;__tm_mday:(0,1),96,32;__tm_mon:(0,1),128,32;__tm_year:(0,1),160,32;__tm_wday:(0,1),192,32;__tm_yday:(0,1),224,32;__tm_isdst:(0,1),256,32;;
+254    LSYM   0      0      00000000 3904   _on_exit_args:T(7,6)=s264_fnargs:(7,7)=ar(8,25);0;31;(6,2),0,1024;_dso_handle:(7,7),1024,1024;_fntypes:(7,1),2048,32;_is_cxa:(7,1),2080,32;;
+255    LSYM   0      0      00000000 4045   _atexit:T(7,8)=s400_next:(7,9)=*(7,8),0,32;_ind:(0,1),32,32;_fns:(7,10)=ar(8,25);0;31;(7,11)=*(7,12)=f(0,20),64,1024;_on_exit_args:(7,6),1088,2112;;
+256    LSYM   0      0      00000000 4194   __sbuf:T(7,13)=s8_base:(7,14)=*(0,13),0,32;_size:(0,1),32,32;;
+257    LSYM   0      0      00000000 4257   __sFILE:T(7,15)=s104_p:(7,14),0,32;_r:(0,1),32,32;_w:(0,1),64,32;_flags:(0,10),96,16;_file:(0,10),112,16;_bf:(7,13),128,64;_lbfsize:(0,1),192,32;_cookie:(6,2),224,32;_read:(7,16)=*(7,17)=f(0,1),256,32;_write:(7,18)=*(7,19)=f(0,1),288,32;_seek:(7,20)=*(7,21)=f(8,17),320,32;_close:(7,22)=*(7,23)=f(0,1),352,32;_ub:(7,13),384,64;_up:(7,14),448,32;_ur:(0,1),480,32;_ubuf:(7,24)=ar(8,25);0;2;(0,13),512,24;_nbuf:(7,25)=ar(8,25);0;0;(0,13),536,8;_lb:(7,13),544,64;_blksize:(0,1),608,32;_offset:(8,5),640,32;_data:(7,26)=*(7,27)=xs_reent:,672,32;_lock:(8,26),704,32;_mbstate:(8,21),736,64;_flags2:(0,1),800,32;;
+258    LSYM   0      0      00000000 4863   __FILE:t(7,28)=(7,15)
+259    LSYM   0      0      00000000 4885   _glue:T(7,29)=s12_next:(7,30)=*(7,29),0,32;_niobs:(0,1),32,32;_iobs:(7,31)=*(7,28),64,32;;
+260    LSYM   0      0      00000000 4976   _rand48:T(7,32)=s14_seed:(7,33)=ar(8,25);0;2;(0,11),0,48;_mult:(7,33),48,48;_add:(0,11),96,16;;
+261    LSYM   0      0      00000000 5072   _reent:T(7,27)=s1060_errno:(0,1),0,32;_stdin:(7,31),32,32;_stdout:(7,31),64,32;_stderr:(7,31),96,32;_inc:(0,1),128,32;_emergency:(7,34)=ar(8,25);0;24;(0,2),160,200;_unspecified_locale_info:(0,1),384,32;_locale:(7,35)=*(7,36)=xs__locale_t:,416,32;__sdidinit:(0,1),448,32;__cleanup:(7,37)=*(7,38)=f(0,20),480,32;_result:(7,3),512,32;_result_k:(0,1),544,32;_p5s:(7,3),576,32;_freelist:(7,39)=*(7,3),608,32;_cvtlen:(0,1),640,32;_cvtbuf:(7,40)=*(0,2),672,32;_new:(7,41)=u240_reent:(7,42)=s204_unused_rand:(0,4),0,32;_strtok_last:(7,40),32,32;_asctime_buf:(7,43)=ar(8,25);0;25;(0,2),64,208;_localtime_buf:(7,5),288,288;_gamma_signgam:(0,1),576,32;_rand_next:(0,9),608,64;_r48:(7,32),672,112;_mblen_state:(8,21),800,64;_mbtowc_state:(8,21),864,64;_wctomb_state:(8,21),928,64;_l64a_buf:(7,44)=ar(8,25);0;7;(0,2),992,64;_signal_buf:(7,45)=ar(8,25);0;23;(0,2),1056,192;_getdate_err:(0,1),1248,32;_mbrlen_state:(8,21),1280,64;_mbrtowc_state:(8,21),1344,64;_mbsrtowcs_state:(8,21),1408,64;_wcrtomb_state:(8,21),1472,64;_wcsrtombs_state:(8,21),1536,64;_h_errno:(0,1),1600,32;;,0,1632;_unused:(7,46)=s240_nextf:(7,47)=ar(8,25);0;29;(7,14),0,960;_nmalloc:(7,48)=ar(8,25);0;29;(0,4),960,960;;,0,1920;;,704,1920;_atexit:(7,9),2624,32;_atexit0:(7,8),2656,3200;_sig_func:(7,49)=*(7,50)=*(7,51)=f(0,20),5856,32;__sglue:(7,29),5888,96;__sf:(7,52)=ar(8,25);0;2;(7,28),5984,2496;;
+262    EINCL  0      0      00000000 0      
+263    BINCL  0      0      00000000 6430   /usr/local/src/git/sunflower-simulator-github-clone/tools/superH/sh-elf/sys-include/sys/types.h
+264    LSYM   0      0      00000000 6526   u_int8_t:t(11,1)=(3,2)
+265    LSYM   0      0      00000000 6549   u_int16_t:t(11,2)=(3,4)
+266    LSYM   0      0      00000000 6573   u_int32_t:t(11,3)=(3,6)
+267    LSYM   0      0      00000000 6597   u_int64_t:t(11,4)=(3,8)
+268    LSYM   0      0      00000000 6621   register_t:t(11,5)=(0,1)
+269    BINCL  0      0      00000000 6646   /usr/local/src/git/sunflower-simulator-github-clone/tools/superH/sh-elf/sys-include/sys/_stdint.h
+270    LSYM   0      0      00000000 6744   int8_t:t(12,1)=(3,1)
+271    LSYM   0      0      00000000 6765   uint8_t:t(12,2)=(3,2)
+272    LSYM   0      0      00000000 6787   int16_t:t(12,3)=(3,3)
+273    LSYM   0      0      00000000 6809   uint16_t:t(12,4)=(3,4)
+274    LSYM   0      0      00000000 6832   int32_t:t(12,5)=(3,5)
+275    LSYM   0      0      00000000 6854   uint32_t:t(12,6)=(3,6)
+276    LSYM   0      0      00000000 6877   int64_t:t(12,7)=(3,7)
+277    LSYM   0      0      00000000 6899   uint64_t:t(12,8)=(3,8)
+278    LSYM   0      0      00000000 6922   intmax_t:t(12,9)=(3,17)
+279    LSYM   0      0      00000000 6946   uintmax_t:t(12,10)=(3,18)
+280    LSYM   0      0      00000000 6972   intptr_t:t(12,11)=(3,19)
+281    LSYM   0      0      00000000 6997   uintptr_t:t(12,12)=(3,20)
+282    EINCL  0      0      00000000 0      
+283    BINCL  0      0      00000000 7023   /usr/local/src/git/sunflower-simulator-github-clone/tools/superH/sh-elf/sys-include/sys/select.h
+284    BINCL  0      0      00000000 7120   /usr/local/src/git/sunflower-simulator-github-clone/tools/superH/sh-elf/sys-include/sys/_sigset.h
+285    LSYM   0      0      00000000 7218   __sigset_t:t(14,1)=(0,5)
+286    EINCL  0      0      00000000 0      
+287    BINCL  0      0      00000000 7243   /usr/local/src/git/sunflower-simulator-github-clone/tools/superH/sh-elf/sys-include/sys/_timeval.h
+288    LSYM   0      0      00000000 7342   suseconds_t:t(15,1)=(8,35)
+289    LSYM   0      0      00000000 7369   time_t:t(15,2)=(3,15)
+290    LSYM   0      0      00000000 7391   timeval:T(15,3)=s12tv_sec:(15,2),0,64;tv_usec:(15,1),64,32;;
+291    EINCL  0      0      00000000 0      
+292    BINCL  0      0      00000000 7452   /usr/local/src/git/sunflower-simulator-github-clone/tools/superH/sh-elf/sys-include/sys/timespec.h
+293    BINCL  0      0      00000000 7551   /usr/local/src/git/sunflower-simulator-github-clone/tools/superH/sh-elf/sys-include/sys/_timespec.h
+294    LSYM   0      0      00000000 7651   timespec:T(17,1)=s12tv_sec:(15,2),0,64;tv_nsec:(0,3),64,32;;
+295    EINCL  0      0      00000000 0      
+296    LSYM   0      0      00000000 7712   itimerspec:T(16,1)=s24it_interval:(17,1),0,96;it_value:(17,1),96,96;;
+297    EINCL  0      0      00000000 0      
+298    LSYM   0      0      00000000 7782   sigset_t:t(13,1)=(14,1)
+299    LSYM   0      0      00000000 7806   fd_mask:t(13,2)=(0,5)
+300    LSYM   0      0      00000000 7828   _types_fd_set:T(13,3)=s8fds_bits:(13,4)=ar(8,25);0;1;(13,2),0,64;;
+301    LSYM   0      0      00000000 7895   _types_fd_set:t(13,5)=(13,3)
+302    EINCL  0      0      00000000 0      
+303    LSYM   0      0      00000000 7924   in_addr_t:t(11,6)=(3,6)
+304    LSYM   0      0      00000000 7948   in_port_t:t(11,7)=(3,4)
+305    LSYM   0      0      00000000 7972   u_char:t(11,8)=(0,13)
+306    LSYM   0      0      00000000 7994   u_short:t(11,9)=(0,11)
+307    LSYM   0      0      00000000 8017   u_int:t(11,10)=(0,4)
+308    LSYM   0      0      00000000 8038   u_long:t(11,11)=(0,5)
+309    LSYM   0      0      00000000 8060   ushort:t(11,12)=(0,11)
+310    LSYM   0      0      00000000 8083   uint:t(11,13)=(0,4)
+311    LSYM   0      0      00000000 8103   ulong:t(11,14)=(0,5)
+312    LSYM   0      0      00000000 8124   blkcnt_t:t(11,15)=(8,1)
+313    LSYM   0      0      00000000 8148   blksize_t:t(11,16)=(8,2)
+314    LSYM   0      0      00000000 8173   clock_t:t(11,17)=(0,5)
+315    LSYM   0      0      00000000 8196   daddr_t:t(11,18)=(0,3)
+316    LSYM   0      0      00000000 8219   caddr_t:t(11,19)=(7,40)
+317    LSYM   0      0      00000000 8243   fsblkcnt_t:t(11,20)=(8,3)
+318    LSYM   0      0      00000000 8269   fsfilcnt_t:t(11,21)=(8,4)
+319    LSYM   0      0      00000000 8295   id_t:t(11,22)=(8,10)
+320    LSYM   0      0      00000000 8316   ino_t:t(11,23)=(8,11)
+321    LSYM   0      0      00000000 8338   off_t:t(11,24)=(8,14)
+322    LSYM   0      0      00000000 8360   dev_t:t(11,25)=(8,7)
+323    LSYM   0      0      00000000 8381   uid_t:t(11,26)=(8,8)
+324    LSYM   0      0      00000000 8402   gid_t:t(11,27)=(8,9)
+325    LSYM   0      0      00000000 8423   pid_t:t(11,28)=(8,6)
+326    LSYM   0      0      00000000 8444   key_t:t(11,29)=(8,16)
+327    LSYM   0      0      00000000 8466   ssize_t:t(11,30)=(8,19)
+328    LSYM   0      0      00000000 8490   mode_t:t(11,31)=(8,12)
+329    LSYM   0      0      00000000 8513   nlink_t:t(11,32)=(8,34)
+330    LSYM   0      0      00000000 8537   clockid_t:t(11,33)=(8,30)
+331    LSYM   0      0      00000000 8563   timer_t:t(11,34)=(8,31)
+332    LSYM   0      0      00000000 8587   useconds_t:t(11,35)=(8,36)
+333    LSYM   0      0      00000000 8614   sbintime_t:t(11,36)=(3,7)
+334    BINCL  0      0      00000000 8640   /usr/local/src/git/sunflower-simulator-github-clone/tools/superH/sh-elf/sys-include/sys/_pthreadtypes.h
+335    BINCL  0      0      00000000 8744   /usr/local/src/git/sunflower-simulator-github-clone/tools/superH/sh-elf/sys-include/sys/sched.h
+336    LSYM   0      0      00000000 8840   sched_param:T(19,1)=s4sched_priority:(0,1),0,32;;
+337    EINCL  0      0      00000000 0      
+338    LSYM   0      0      00000000 8890   pthread_t:t(18,1)=(3,6)
+339    LSYM   0      0      00000000 8914   pthread_attr_t:t(18,2)=(18,3)=s32is_initialized:(0,1),0,32;stackaddr:(6,2),32,32;stacksize:(0,1),64,32;contentionscope:(0,1),96,32;inheritsched:(0,1),128,32;schedpolicy:(0,1),160,32;schedparam:(19,1),192,32;detachstate:(0,1),224,32;;
+340    LSYM   0      0      00000000 9148   pthread_mutex_t:t(18,4)=(3,6)
+341    LSYM   0      0      00000000 9178   pthread_mutexattr_t:t(18,5)=(18,6)=s8is_initialized:(0,1),0,32;recursive:(0,1),32,32;;
+342    LSYM   0      0      00000000 9265   pthread_cond_t:t(18,7)=(3,6)
+343    LSYM   0      0      00000000 9294   pthread_condattr_t:t(18,8)=(18,9)=s8is_initialized:(0,1),0,32;clock:(11,17),32,32;;
+344    LSYM   0      0      00000000 9378   pthread_key_t:t(18,10)=(3,6)
+345    LSYM   0      0      00000000 9407   pthread_once_t:t(18,11)=(18,12)=s8is_initialized:(0,1),0,32;init_executed:(0,1),32,32;;
+346    EINCL  0      0      00000000 0      
+347    EINCL  0      0      00000000 0      
+348    LSYM   0      0      00000000 9495   FILE:t(1,2)=(7,28)
+349    LSYM   0      0      00000000 9514   fpos_t:t(1,3)=(8,17)
+350    EINCL  0      0      00000000 0      
+351    GSYM   0      0      00000000 9535   REGSAVESTACK:G(0,21)=ar(8,25);0;35;(0,13)
+352    GSYM   0      0      00000000 9577   gFlag:G(0,1)
+353    FUN    0      0      0800429c 9590   main:F(0,1)
+354    SLINE  0      12     00000000 0      
+355    SLINE  0      13     00000008 0      
+356    SLINE  0      15     00000010 0      
+357    SLINE  0      17     00000016 0      
+358    SLINE  0      19     0000001a 0      
+359    SLINE  0      17     00000036 0      
+360    SLINE  0      17     0000003a 0      
+361    SLINE  0      22     0000003e 0      
+362    SLINE  0      23     00000040 0      
+363    LSYM   0      0      00000000 9602   i:(0,1)
+364    LBRAC  0      0      00000000 0      
+365    RBRAC  0      0      00000060 0      
+366    FUN    0      0      080042fc 9610   intr_hdlr:F(0,20)
+367    SLINE  0      27     00000000 0      
+368    SLINE  0      28     00000004 0      
+369    SLINE  0      30     0000000a 0      
+370    SLINE  0      31     0000000c 0      
+371    FUN    0      0      08004314 9628   hdlr_install:f(0,20)
+372    SLINE  0      35     00000000 0      
+373    SLINE  0      37     00000006 0      
+374    SLINE  0      38     0000000e 0      
+375    SLINE  0      42     00000016 0      
+376    SLINE  0      44     0000001a 0      
+377    SLINE  0      44     0000002a 0      
+378    SLINE  0      44     0000003a 0      
+379    SLINE  0      44     0000003e 0      
+380    SLINE  0      42     00000040 0      
+381    SLINE  0      47     0000004c 0      
+382    SLINE  0      48     0000004e 0      
+383    LSYM   0      0      00000004 9649   dstptr:(7,14)
+384    LSYM   0      0      00000000 9663   srcptr:(7,14)
+385    LBRAC  0      0      00000000 0      
+386    RBRAC  0      0      00000064 0      
+387    SO     0      0      08004378 0      
+

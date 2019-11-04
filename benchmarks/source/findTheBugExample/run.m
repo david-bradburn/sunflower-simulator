@@ -1,5 +1,5 @@
 sizemem			131072
-settimerdelay		40000
+settimerdelay		100000
 clockintr		1
 cacheoff
 srecl			findTheBugExample.sr
