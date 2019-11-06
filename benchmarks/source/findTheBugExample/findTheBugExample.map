@@ -1,0 +1,402 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o)
+                              findTheBugExample.o (print)
+/usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-atexit.o)
+                              init.o (atexit)
+/usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-malloc.o)
+                              init.o (malloc)
+/usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mallocr.o)
+                              /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-malloc.o) (_malloc_r)
+/usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mlock.o)
+                              /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mallocr.o) (__malloc_lock)
+/usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-sbrkr.o)
+                              /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mallocr.o) (_sbrk_r)
+/usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-syscalls.o)
+                              /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-sbrkr.o) (_sbrk)
+/usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-trap.o)
+                              /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-syscalls.o) (__trap34)
+/usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-abort.o)
+                              /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-syscalls.o) (abort)
+/usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-__atexit.o)
+                              /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-atexit.o) (__register_exitproc)
+/usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-freer.o)
+                              /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-malloc.o) (_free_r)
+/usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-impure.o)
+                              /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-__atexit.o) (_global_impure_ptr)
+/usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signal.o)
+                              /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-abort.o) (raise)
+/usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signalr.o)
+                              /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signal.o) (_kill_r)
+/usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libgcc.a(_ashiftlt.o)
+                              /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mallocr.o) (__ashlsi3_r0)
+/usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libgcc.a(_sdivsi3.o)
+                              /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o) (__sdivsi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+REGSAVESTACK        0x24              findTheBugExample.o
+errno               0x4               /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-syscalls.o)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o)
+ .group         0x0000000000000000        0x8 /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .text set to 0x8004000
+
+.text           0x0000000008004000     0x1a40
+                0x0000000008004000                _text = .
+ *(.text)
+ .text          0x0000000008004000       0xa0 init.o
+                0x0000000008004010                vec_stub_begin
+                0x0000000008004084                sleep
+                0x0000000008004084                vec_stub_end
+ .text          0x00000000080040a0      0x19c misc.o
+                0x00000000080040a0                sccputc
+                0x00000000080040f0                devlogprintputc
+                0x0000000008004124                xudelay
+                0x000000000800417a                xusleep
+                0x00000000080041d8                pow10
+ .text          0x000000000800423c       0x60 devrtc.o
+                0x000000000800423c                devrtc_getusecs
+ .text          0x000000000800429c       0xdc findTheBugExample.o
+                0x000000000800429c                main
+                0x00000000080042fc                intr_hdlr
+ .text          0x0000000008004378      0x66c /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o)
+                0x000000000800490c                print
+                0x0000000008004938                lprint
+                0x0000000008004964                fprint
+                0x0000000008004990                sprint
+                0x00000000080049bc                snprint
+ .text          0x00000000080049e4       0x10 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-atexit.o)
+                0x00000000080049e4                atexit
+ .text          0x00000000080049f4       0x28 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-malloc.o)
+                0x00000000080049f4                malloc
+                0x0000000008004a08                free
+ .text          0x0000000008004a1c      0x5c0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mallocr.o)
+                0x0000000008004a1c                _malloc_r
+ .text          0x0000000008004fdc        0x8 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mlock.o)
+                0x0000000008004fdc                __malloc_lock
+                0x0000000008004fe0                __malloc_unlock
+ .text          0x0000000008004fe4       0x38 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-sbrkr.o)
+                0x0000000008004fe4                _sbrk_r
+ .text          0x000000000800501c      0x278 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-syscalls.o)
+                0x00000000080050a0                _read
+                0x00000000080050b0                _lseek
+                0x00000000080050c0                _write
+                0x00000000080050d0                _close
+                0x00000000080050e0                _link
+                0x00000000080050e4                _sbrk
+                0x000000000800514c                _fstat
+                0x0000000008005158                _open
+                0x0000000008005168                _creat
+                0x0000000008005178                _unlink
+                0x000000000800517c                isatty
+                0x0000000008005180                _isatty
+                0x0000000008005184                _exit
+                0x0000000008005194                _kill
+                0x00000000080051a8                _getpid
+                0x00000000080051ac                _raise
+                0x00000000080051b0                _stat
+                0x00000000080051c0                _chmod
+                0x00000000080051d0                _chown
+                0x00000000080051e0                _utime
+                0x00000000080051f4                _fork
+                0x0000000008005200                _wait
+                0x0000000008005210                _execve
+                0x0000000008005220                _execv
+                0x0000000008005230                _pipe
+                0x000000000800523c                _times
+                0x0000000008005240                _gettimeofday
+                0x0000000008005268                __setup_argv_and_call_main
+ .text          0x0000000008005294       0x14 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-trap.o)
+                0x0000000008005294                __trap34
+ .text          0x00000000080052a8       0x18 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-abort.o)
+                0x00000000080052a8                abort
+ .text          0x00000000080052c0       0xd4 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-__atexit.o)
+                0x00000000080052c0                __register_exitproc
+ .text          0x0000000008005394      0x2fc /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-freer.o)
+                0x0000000008005394                _malloc_trim_r
+                0x0000000008005468                _free_r
+ .text          0x0000000008005690        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-impure.o)
+ .text          0x0000000008005690      0x1fc /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signal.o)
+                0x00000000080056c8                _init_signal_r
+                0x00000000080056e4                _signal_r
+                0x0000000008005738                _raise_r
+                0x00000000080057b8                __sigtramp_r
+                0x000000000800582c                raise
+                0x0000000008005840                signal
+                0x0000000008005854                _init_signal
+                0x0000000008005878                __sigtramp
+ .text          0x000000000800588c       0x48 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signalr.o)
+                0x000000000800588c                _kill_r
+                0x00000000080058c8                _getpid_r
+ .text          0x00000000080058d4       0xc8 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libgcc.a(_ashiftlt.o)
+                0x00000000080058d4                __ashlsi3
+                0x00000000080058d8                __ashlsi3_r0
+ .text          0x000000000800599c       0xa0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libgcc.a(_sdivsi3.o)
+                0x000000000800599c                __sdivsi3
+ *(.strings)
+                0x0000000008005a3c                _etext = .
+
+.rodata         0x0000000008005a40       0x20
+ .rodata        0x0000000008005a40       0x11 findTheBugExample.o
+ *fill*         0x0000000008005a51        0x3 
+ .rodata        0x0000000008005a54        0x4 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-impure.o)
+                0x0000000008005a54                _global_impure_ptr
+
+.rodata.str1.4  0x0000000008005a60       0x30
+ .rodata.str1.4
+                0x0000000008005a60       0x11 /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o)
+ *fill*         0x0000000008005a71        0x3 
+ .rodata.str1.4
+                0x0000000008005a74       0x1a /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-syscalls.o)
+
+.tors           0x0000000008005a90        0x0
+                0x0000000008005a90                ___ctors = .
+ *(.ctors)
+                0x0000000008005a90                ___ctors_end = .
+                0x0000000008005a90                ___dtors = .
+ *(.dtors)
+                0x0000000008005a90                ___dtors_end = .
+
+.data           0x0000000008005a90      0x840
+                0x0000000008005a90                _data = .
+ *(.data)
+ .data          0x0000000008005a90        0x0 init.o
+ .data          0x0000000008005a90        0x0 misc.o
+ .data          0x0000000008005a90        0x0 devrtc.o
+ .data          0x0000000008005a90        0x4 findTheBugExample.o
+                0x0000000008005a90                gFlag
+ .data          0x0000000008005a94        0x0 /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o)
+ .data          0x0000000008005a94        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-atexit.o)
+ .data          0x0000000008005a94        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-malloc.o)
+ .data          0x0000000008005a94      0x410 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mallocr.o)
+                0x0000000008005a94                __malloc_sbrk_base
+                0x0000000008005a98                __malloc_trim_threshold
+                0x0000000008005a9c                __malloc_av_
+ .data          0x0000000008005ea4        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mlock.o)
+ .data          0x0000000008005ea4        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-sbrkr.o)
+ .data          0x0000000008005ea4        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-syscalls.o)
+ .data          0x0000000008005ea4        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-trap.o)
+ .data          0x0000000008005ea4        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-abort.o)
+ .data          0x0000000008005ea4        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-__atexit.o)
+ .data          0x0000000008005ea4        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-freer.o)
+ .data          0x0000000008005ea4      0x428 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-impure.o)
+                0x0000000008005ea4                _impure_ptr
+ .data          0x00000000080062cc        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signal.o)
+ .data          0x00000000080062cc        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signalr.o)
+ .data          0x00000000080062cc        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libgcc.a(_ashiftlt.o)
+ .data          0x00000000080062cc        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libgcc.a(_sdivsi3.o)
+ *(.gcc_exc*)
+                0x00000000080062cc                ___EH_FRAME_BEGIN__ = .
+ *(.eh_fram*)
+                0x00000000080062cc                ___EH_FRAME_END__ = .
+                0x00000000080062cc        0x4 LONG 0x0
+                0x00000000080062d0                _edata = .
+
+.bss            0x00000000080062d0       0x60
+                0x00000000080062d0                _bss = .
+ *(.bss)
+ .bss           0x00000000080062d0        0x0 init.o
+ .bss           0x00000000080062d0        0x0 misc.o
+ .bss           0x00000000080062d0        0x0 devrtc.o
+ .bss           0x00000000080062d0        0x0 findTheBugExample.o
+ .bss           0x00000000080062d0        0x0 /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o)
+ .bss           0x00000000080062d0        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-atexit.o)
+ .bss           0x00000000080062d0        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-malloc.o)
+ .bss           0x00000000080062d0       0x34 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mallocr.o)
+                0x00000000080062d0                __malloc_current_mallinfo
+                0x00000000080062f8                __malloc_max_total_mem
+                0x00000000080062fc                __malloc_max_sbrked_mem
+                0x0000000008006300                __malloc_top_pad
+ .bss           0x0000000008006304        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mlock.o)
+ .bss           0x0000000008006304        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-sbrkr.o)
+ .bss           0x0000000008006304        0x4 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-syscalls.o)
+ .bss           0x0000000008006308        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-trap.o)
+ .bss           0x0000000008006308        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-abort.o)
+ .bss           0x0000000008006308        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-__atexit.o)
+ .bss           0x0000000008006308        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-freer.o)
+ .bss           0x0000000008006308        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-impure.o)
+ .bss           0x0000000008006308        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signal.o)
+ .bss           0x0000000008006308        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signalr.o)
+ .bss           0x0000000008006308        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libgcc.a(_ashiftlt.o)
+ .bss           0x0000000008006308        0x0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libgcc.a(_sdivsi3.o)
+ *(COMMON)
+ COMMON         0x0000000008006308       0x24 findTheBugExample.o
+                0x0000000008006308                REGSAVESTACK
+ COMMON         0x000000000800632c        0x4 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-syscalls.o)
+                0x000000000800632c                errno
+                0x0000000008006330                _ebss = .
+                0x0000000008006330                _end = .
+LOAD init.o
+LOAD misc.o
+LOAD devrtc.o
+LOAD findTheBugExample.o
+LOAD /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a
+LOAD /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a
+LOAD /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libgcc.a
+OUTPUT(findTheBugExample coff-sh)
+
+.stab           0x0000000000000000     0x123c
+ .stab          0x0000000000000000      0x498 misc.o
+ .stab          0x0000000000000498      0x264 devrtc.o
+ .stab          0x00000000000006fc      0xb40 findTheBugExample.o
+
+.stabstr        0x0000000000000000     0x3b54
+ .stabstr       0x0000000000000000      0xbe2 misc.o
+ .stabstr       0x0000000000000be2      0x99c devrtc.o
+ .stabstr       0x000000000000157e     0x25cd findTheBugExample.o
+
+.comment        0x0000000000000000      0x120
+ .comment       0x0000000000000000       0x12 misc.o
+ .comment       0x0000000000000012       0x12 devrtc.o
+ .comment       0x0000000000000024       0x12 findTheBugExample.o
+ .comment       0x0000000000000036       0x12 /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o)
+ .comment       0x0000000000000048       0x12 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-atexit.o)
+ .comment       0x000000000000005a       0x12 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-malloc.o)
+ .comment       0x000000000000006c       0x12 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mallocr.o)
+ .comment       0x000000000000007e       0x12 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mlock.o)
+ .comment       0x0000000000000090       0x12 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-sbrkr.o)
+ .comment       0x00000000000000a2       0x12 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-syscalls.o)
+ .comment       0x00000000000000b4       0x12 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-abort.o)
+ .comment       0x00000000000000c6       0x12 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-__atexit.o)
+ .comment       0x00000000000000d8       0x12 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-freer.o)
+ .comment       0x00000000000000ea       0x12 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-impure.o)
+ .comment       0x00000000000000fc       0x12 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signal.o)
+ .comment       0x000000000000010e       0x12 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signalr.o)
+
+.debug_info     0x0000000000000000     0x94b0
+ .debug_info    0x0000000000000000      0x796 /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o)
+ .debug_info    0x0000000000000796      0x991 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-atexit.o)
+ .debug_info    0x0000000000001127      0x9ae /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-malloc.o)
+ .debug_info    0x0000000000001ad5      0xe41 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mallocr.o)
+ .debug_info    0x0000000000002916      0x961 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mlock.o)
+ .debug_info    0x0000000000003277      0x9ec /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-sbrkr.o)
+ .debug_info    0x0000000000003c63     0x16df /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-syscalls.o)
+ .debug_info    0x0000000000005342      0x9b5 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-abort.o)
+ .debug_info    0x0000000000005cf7      0x9e0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-__atexit.o)
+ .debug_info    0x00000000000066d7      0xd67 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-freer.o)
+ .debug_info    0x000000000000743e      0x92a /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-impure.o)
+ .debug_info    0x0000000000007d68      0xcef /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signal.o)
+ .debug_info    0x0000000000008a57      0xa57 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signalr.o)
+
+.debug_abbrev   0x0000000000000000     0x2130
+ .debug_abbrev  0x0000000000000000      0x2e1 /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o)
+ .debug_abbrev  0x00000000000002e1      0x22f /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-atexit.o)
+ .debug_abbrev  0x0000000000000510      0x22d /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-malloc.o)
+ .debug_abbrev  0x000000000000073d      0x30f /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mallocr.o)
+ .debug_abbrev  0x0000000000000a4c      0x1ff /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mlock.o)
+ .debug_abbrev  0x0000000000000c4b      0x247 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-sbrkr.o)
+ .debug_abbrev  0x0000000000000e92      0x418 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-syscalls.o)
+ .debug_abbrev  0x00000000000012aa      0x20b /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-abort.o)
+ .debug_abbrev  0x00000000000014b5      0x25f /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-__atexit.o)
+ .debug_abbrev  0x0000000000001714      0x2bd /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-freer.o)
+ .debug_abbrev  0x00000000000019d1      0x1b8 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000001b89      0x344 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signal.o)
+ .debug_abbrev  0x0000000000001ecd      0x25d /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signalr.o)
+
+.debug_loc      0x0000000000000000     0x32d0
+ .debug_loc     0x0000000000000000     0x12bb /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o)
+ .debug_loc     0x00000000000012bb       0x2c /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-atexit.o)
+ .debug_loc     0x00000000000012e7       0x58 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-malloc.o)
+ .debug_loc     0x000000000000133f      0xb35 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mallocr.o)
+ .debug_loc     0x0000000000001e74       0x66 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-sbrkr.o)
+ .debug_loc     0x0000000000001eda      0x7a1 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-syscalls.o)
+ .debug_loc     0x000000000000267b      0x1d3 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-__atexit.o)
+ .debug_loc     0x000000000000284e      0x585 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-freer.o)
+ .debug_loc     0x0000000000002dd3      0x440 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signal.o)
+ .debug_loc     0x0000000000003213       0xb3 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signalr.o)
+
+.debug_aranges  0x0000000000000000      0x1a0
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o)
+ .debug_aranges
+                0x0000000000000020       0x20 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x0000000000000040       0x20 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-malloc.o)
+ .debug_aranges
+                0x0000000000000060       0x20 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mallocr.o)
+ .debug_aranges
+                0x0000000000000080       0x20 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mlock.o)
+ .debug_aranges
+                0x00000000000000a0       0x20 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-sbrkr.o)
+ .debug_aranges
+                0x00000000000000c0       0x20 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-syscalls.o)
+ .debug_aranges
+                0x00000000000000e0       0x20 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-abort.o)
+ .debug_aranges
+                0x0000000000000100       0x20 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x0000000000000120       0x20 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-freer.o)
+ .debug_aranges
+                0x0000000000000140       0x18 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000158       0x20 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signal.o)
+ .debug_aranges
+                0x0000000000000178       0x20 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signalr.o)
+
+.debug_ranges   0x0000000000000000      0x110
+ .debug_ranges  0x0000000000000000       0x68 /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o)
+ .debug_ranges  0x0000000000000068       0x38 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mallocr.o)
+ .debug_ranges  0x00000000000000a0       0x18 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-syscalls.o)
+ .debug_ranges  0x00000000000000b8       0x30 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signal.o)
+ .debug_ranges  0x00000000000000e8       0x20 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signalr.o)
+
+.debug_macro    0x0000000000000000      0x710
+ .debug_macro   0x0000000000000000       0x1a /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o)
+ .debug_macro   0x000000000000001a      0x694 /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o)
+ .debug_macro   0x00000000000006ae       0x58 /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o)
+
+.debug_line     0x0000000000000000     0x2df0
+ .debug_line    0x0000000000000000      0x7a6 /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o)
+ .debug_line    0x00000000000007a6      0x1e0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-atexit.o)
+ .debug_line    0x0000000000000986      0x1e8 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-malloc.o)
+ .debug_line    0x0000000000000b6e      0x87f /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mallocr.o)
+ .debug_line    0x00000000000013ed      0x15c /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mlock.o)
+ .debug_line    0x0000000000001549      0x217 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-sbrkr.o)
+ .debug_line    0x0000000000001760      0x4c9 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-syscalls.o)
+ .debug_line    0x0000000000001c29      0x1f5 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-abort.o)
+ .debug_line    0x0000000000001e1e      0x2f5 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-__atexit.o)
+ .debug_line    0x0000000000002113      0x541 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-freer.o)
+ .debug_line    0x0000000000002654      0x144 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-impure.o)
+ .debug_line    0x0000000000002798      0x429 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signal.o)
+ .debug_line    0x0000000000002bc1      0x225 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signalr.o)
+
+.debug_str      0x0000000000000000     0x6920
+ .debug_str     0x0000000000000000     0x202b /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o)
+ .debug_str     0x000000000000202b      0x58e /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-atexit.o)
+ .debug_str     0x00000000000025b9      0x574 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-malloc.o)
+ .debug_str     0x0000000000002b2d      0x7ab /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mallocr.o)
+ .debug_str     0x00000000000032d8      0x56f /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mlock.o)
+ .debug_str     0x0000000000003847      0x586 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-sbrkr.o)
+ .debug_str     0x0000000000003dcd      0x842 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-syscalls.o)
+ .debug_str     0x000000000000460f      0x581 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-abort.o)
+ .debug_str     0x0000000000004b90      0x5b3 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-__atexit.o)
+ .debug_str     0x0000000000005143      0x724 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-freer.o)
+ .debug_str     0x0000000000005867      0x543 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-impure.o)
+ .debug_str     0x0000000000005daa      0x5e6 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signal.o)
+ .debug_str     0x0000000000006390      0x58b /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signalr.o)
+
+.debug_frame    0x0000000000000000      0x8f0
+ .debug_frame   0x0000000000000000      0x1dc /usr/local/src/git/sunflower-simulator-github-clone/sys/libOS/eOS/libeOS-superH.a(print.o)
+ .debug_frame   0x00000000000001dc       0x20 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-atexit.o)
+ .debug_frame   0x00000000000001fc       0x30 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-malloc.o)
+ .debug_frame   0x000000000000022c       0x98 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mallocr.o)
+ .debug_frame   0x00000000000002c4       0x30 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-mlock.o)
+ .debug_frame   0x00000000000002f4       0x4c /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000000340      0x2a0 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-syscalls.o)
+ .debug_frame   0x00000000000005e0       0x28 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-abort.o)
+ .debug_frame   0x0000000000000608       0x50 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000000658       0xc8 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-freer.o)
+ .debug_frame   0x0000000000000720      0x168 /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signal.o)
+ .debug_frame   0x0000000000000888       0x5c /usr/local/src/git/sunflower-simulator-github-clone/tools/tools-lib/superH/libc.a(lib_a-signalr.o)
